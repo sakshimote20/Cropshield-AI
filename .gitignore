@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environments
+.venv/
+env/
+
+# Secrets
+app/.env
+
+# Model files
+app/model/*.h5
+app/model/*.hdf5
+app/model/*.pb
+app/model/*.tflite
+app/model/*.onnx
+
+# Streamlit cache
+.streamlit/
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
